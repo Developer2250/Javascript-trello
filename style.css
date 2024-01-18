@@ -1,0 +1,115 @@
+.main-nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	grid-area: main-nav;
+	background-color: #94b2dd;
+	padding-top: 10px;
+	border-radius: 5px;
+}
+
+.to-do {
+	grid-area: todo;
+	background-color: #a8dadc;
+	min-height: 8em;
+	padding-top: 10px;
+	border-radius: 5px;
+}
+
+.doing {
+	grid-area: doing;
+	background-color: #a8dadc;
+	padding-top: 10px;
+	border-radius: 5px;
+}
+
+.done {
+	grid-area: done;
+	background-color: #a8dadc;
+	padding-top: 10px;
+	border-radius: 5px;
+}
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+nav li {
+	display: inline;
+}
+a {
+	text-align: center;
+	font-family: inherit;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 1rem;
+	transition: all 300ms;
+}
+
+a:hover {
+	color: #a8dadc;
+}
+
+.link-web {
+	color: #e63946;
+}
+.add-todo {
+	cursor: pointer;
+	width: 90%;
+	margin-left: 20px;
+}
+.alert {
+	width: 80%;
+	margin: 0px auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	padding: 10px;
+	background-color: red;
+	color: white;
+	font-size: 1em;
+	border-radius: 5px;
+}
+
+.card {
+	display: flex;
+	background-color: #457b9d;
+	padding: 10px;
+	margin: 1.2em;
+	border-radius: 5px;
+	color: white;
+	font-weight: normal;
+	cursor: pointer;
+	justify-content: space-between;
+}
+input {
+	width: 100%;
+	height: 2em;
+	font-size: 1em;
+	margin-top: 0.5em;
+}
+
+label {
+	text-align: center;
+	color: black;
+}
+#add__task {
+	display: block;
+}
+.remove__button {
+	background-color: var(--link-web);
+	width: 10%;
+	padding: 0;
+	margin: 0;
+	height: 10%;
+	border: 1px solid black;
+	transition: all 300ms;
+}
+
+.remove__button:hover {
+	background-color: rgb(255, 205, 205);
+}
